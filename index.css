@@ -97,3 +97,12 @@ h4{
 .add +.add{
     margin-left: .2em;
 }
+@media (max-width:500px){
+    .container{
+        max-width: 400px;
+    }
+    html{
+        font-size: 10px;;
+    }
+    
+}
