@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel= "font" href="https://www.fontspace.com/cursed-timer-ulil-font-f29411">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"         rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+
+     <div class="container row">
+        <div class="first column">
+                <h1>HOME</h1>
+            <div class="score-display display tall row">
+                     <p class ="home-score-number">0</p>
+            </div>
+            <div class = "score-btns">
+                        <button class="add home-add1" onclick= "homeAdd1()">+1 </button>
+                        <button class="add home-add2" onclick= "homeAdd2()">+2 </button>
+                        <button class="add home-add3" onclick="homeAdd3()">+3 </button>
+            </div>
+        </div>
+
+
+        <div class="middle column">
+            <div class="count-down display ">
+                  <p class ="count-down-number">12:00</p>
+            </div>  
+                     <h4>Timer</h4>
+            <div class="period display">
+                  <p class ="period-number">0</p>
+            </div>  
+                     <h4>Period</h4>
+                     <div class="middle-reset-btns row"><button class="start" onclick='start()'>Start </button>
+                        <button class="reset" onclick='reset()'>Reset </button>
+                   
+               
+            </div>
+         </div>
+
+
+        <div class="last column">
+                 <h1>GUEST</h1>
+            <div class="score-display display tall row">
+                     <p class ="guest-score-number">0</p>
+            </div>
+            <div class = "Guest-score-btns">
+                        <button class="add guest-add1" onclick= "guestAdd1()">+1 </button>
+                        <button class="add guest-add2" onclick= "guestAdd2()">+2 </button>
+                        <button class="add guest-add3" onclick= "guestAdd3()">+3 </button>
+            </div>
+        </div>
+    </div>
+        <script  defer src="index.js"></script>
+    </body>
+</html>

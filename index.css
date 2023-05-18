@@ -1,0 +1,99 @@
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:"Roboto", sans-serif;
+    font-weight:800;
+   
+ 
+}
+h1{
+    font-weight: 700;
+}
+h4{
+    margin-bottom:1em; 
+}
+.container {
+     padding: 2em 5em;
+    justify-content: space-around;
+    background-color: #D97706;
+    align-items: center;
+    justify-content:space-around;
+    gap:1em;
+    color:#fff;
+    max-width: 600px;
+    margin:10% auto;
+    border-radius: .5em;
+    width:80%;
+    
+  
+
+}
+
+.column{
+    flex-direction: column;
+}
+.row{
+    display:flex;
+}
+.display{
+    background-color: #6B7280;
+    color:#FBBF24;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius:.3em;
+    font-size:1.5rem;
+    margin:.5em auto; 
+    padding:.5em 1em;
+    gap:1em;
+
+    
+   
+}
+.first  .display, 
+.last .display{
+  padding: 1.5em 1em;
+}
+
+.tall{
+   
+    font-size: 2.8rem;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+   
+}
+    
+.first, .last, .middle{
+  /* justify-content: space-around; */
+  text-align: center;
+  align-content: space-around;
+  
+ 
+    
+}
+.middle{
+    padding-top:2.2em;
+}
+
+.middle-reset-btns{
+    gap: 1em;
+    justify-content:center; 
+}
+.add,.start,.reset{
+    border: 1px solid #fff;
+    background-color: #D97706;
+    color:#fff;
+     padding:.05em .3em;
+    border-radius:.3em;
+
+}
+
+.add +.add{
+    margin-left: .2em;
+}
